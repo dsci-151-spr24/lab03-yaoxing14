@@ -1,6 +1,7 @@
 ---
 title: "Lab 03 - Nobel laureates"
 output: 
+author: "YaoXing Qian"
   tufte::tufte_html:
     css: ../lab.css
     tufte_variant: "envisioned"
