@@ -1,7 +1,7 @@
 ---
 title: "Lab 03 - Nobel laureates"
-output: 
 author: "YaoXing Qian"
+output: 
   tufte::tufte_html:
     css: ../lab.css
     tufte_variant: "envisioned"
@@ -212,6 +212,8 @@ You don't have to switch at each exercise, you can find your a cadence that work
 1.  How many observations and how many variables are in the dataset? Use inline code to answer this question. What does each row represent?
 
 There are some observations in this dataset that we will exclude from our analysis to match the Buzzfeed results.
+
+***There are`r nrow(nobel)`rows and `r ncol(nobel)` columns in the nobel dataset. Each row represents a nobel winner.***
 
 2.  Create a new data frame called `nobel_living` that filters for
 
